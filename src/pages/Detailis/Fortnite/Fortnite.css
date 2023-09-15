@@ -1,0 +1,108 @@
+.fortnitesection{
+    /* display: flex;
+    flex-grow:1;
+    justify-content: space-between;align-items: center;
+    flex-wrap: wrap;
+    gap: 30px; */
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    gap: 30px;
+}
+
+.fortnitesection div{
+    display: flex;
+    width: auto;
+    justify-content: space-between;
+    /* width: 100%; */
+    padding: 20px 20px 15px;
+    background-color: var(--color-dark);
+    border-radius: 20px;
+    flex-wrap: wrap;
+}@media (max-width:345px) {
+    .fortnitesection{
+        grid-template-columns: repeat(auto-fit,minmax(150px,1fr));
+        gap: 10px;
+    }
+    .fortnitesection div{
+        padding: 10px 10px 5px;
+    }
+}
+.fortnitesection .fortnitesection2{
+    justify-content: space-around;
+}
+.fortnitesection .fortnitesection1 h1{
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--color-bink);
+}
+.fortnitesection .fortnitesection1 h1 span{
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+
+}
+.fortnitesection .fortnitesection1 .sasasa{
+    color: yellow;
+    margin-right: 7px;
+}
+.fortnitesection .fortnitesection1 .sesese{
+    color: var(--color-bink);
+    margin-right: 7px;
+}
+
+.fortnitesection .fortnitesection2 i{
+    color: var(--color-bink);
+    margin-bottom: 7px ;
+}
+.fortnitesection .fortnitesection2 .seasea
+{
+    color: yellow;
+}
+.fortniteimg{
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(350px,1fr));
+    gap: 30px;
+
+}
+.fortniteimg img{
+    width: 100%;
+    border-radius: 20px;
+}
+@media (max-width:450px){
+    .fortniteimg{
+        margin-top:20px;
+        grid-template-columns: repeat(auto-fit,minmax(150px,1fr));
+        gap: 10px;
+    
+    }
+} 
+.asasas{
+    margin-top: 30px;
+    font-size: 19px;
+    color: #888;
+}
+.asasas span{
+    color: var(--color-bink);
+    font-size: 21px;
+    font-weight: 600;
+}
+.sda{
+    width: 100%;
+    background-color: transparent;
+    padding: 12px;
+    border-radius: 20px;
+    color: var(--color-bink);
+    border:2px solid var(--color-bink);
+    letter-spacing: 2px;
+    font-size: 20px;
+    transition: .3s;
+    margin-top: 15px;
+}
+.sda:hover{
+    background-color: var(--color-bink);
+    border-color: white;
+    color: white;
+}
+
+

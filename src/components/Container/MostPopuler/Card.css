@@ -1,0 +1,32 @@
+.section-wrapper .home-boxs .boxn{
+    /* margin: 5px; */
+    background-color: var(--color-dark);
+    padding: 20px;
+    border-radius: 20px;
+}
+.section-wrapper .home-boxs .card-title{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    line-height: 1.5rem;
+}
+.section-wrapper .home-boxs .card-title h4{
+    font-size: 16px;
+}
+.section-wrapper .home-boxs .card-title h4 span{
+    font-size: 14px;
+    color: darkgray;
+}
+.section-wrapper .home-boxs img{
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+
+}
+.section-wrapper .home-boxs .card-title .star11{
+    color: yellow;
+    font-size: 15px;
+}
+.section-wrapper .home-boxs .card-title .dawn11{
+    color: var(--color-bink);
+}

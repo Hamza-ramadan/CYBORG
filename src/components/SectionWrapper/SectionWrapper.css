@@ -1,0 +1,13 @@
+.section-wrapper{
+    background-color: var(--color-darkest);
+    border-radius: 20px;
+    padding: 20px;
+    margin-top: 20px;
+    color: var(--color-light);
+}
+@media (max-width:500px) {
+.section-wrapper{
+
+    padding: 40px 20px;
+}
+}

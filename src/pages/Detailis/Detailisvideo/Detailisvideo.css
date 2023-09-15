@@ -1,0 +1,51 @@
+.cscscs{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+.cscscs img{
+    border-radius: 30px;
+}
+.cscscs .scsd{
+    position: relative;
+}
+.cscscs .scsd img{
+    width: 100%;
+}
+.cscscs a{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    border-radius: 50%;
+    background-color: var(--color-bink);
+    text-align: center;
+    line-height: 50px;
+
+}
+.cscscs a i{
+    color: white;
+    font-size: 20px;
+
+}
+.adreess{
+    font-size: 45px;
+    color: white;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+@media (max-width:770px) {
+    .adreess{
+        font-size: 35px;
+    }
+}
+@media (max-width:300px) {
+    .adreess{
+        font-size: 25px;
+    }
+}

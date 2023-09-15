@@ -1,0 +1,106 @@
+.Mostpopularliveboxs{
+    /* display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap; */
+    display: grid;
+        grid-template-columns: repeat(auto-fill,minmax(250px , 1fr));
+        gap: 20px;
+    
+}
+.Mostpopularlive-img-main {
+    position: relative;
+    padding-left: 0;
+    padding-right: 0;
+}
+.Mostpopularlive-img-main img{
+    width: 100%;
+    border-radius: 15px;
+}
+.Mostpopularlive-img-main span{
+    padding: 2px 5px;
+    background-color: var(--color-bink);
+    display: inline-block;
+    border-radius: 10px;
+    margin-right: 20px;
+    opacity: 0;
+    transition: .3s;
+}
+.Mostpopularlive-img-main .sapnoooo{
+    position: absolute;
+    left: 15px;
+    top: 15px;
+    padding-bottom: 0;
+}
+.Mostpopularlive-img-main .sapnoooo h5{
+    font-size: 16px;
+}
+
+.Mostpopularlive-title-img{
+    position: absolute;
+    left: 15px;
+    bottom:15px
+}
+.Mostpopularlive-title-img span i{
+    margin-right: 5px;
+}
+.Mostpopularlive-img-main img{
+    width: 100%;
+    border-radius: 15px;
+}
+.Mostpopularlive-img-main:hover .Mostpopularlive-title-img span ,.Mostpopularlive-img-main:hover .sapnoooo{
+    opacity: 1;
+}
+.Mostpopularlivebox .Mostpopularliveman{
+    display: flex;
+    margin-top: 15px;
+}
+.Mostpopularlivebox .Mostpopularliveman img{
+    width:55px;
+    height: 55px;
+    margin-right: 15px;
+    border-radius: 50%;
+}
+.Mostpopularlivebox .Mostpopularliveman span {
+    font-size: 18px;
+    color: var(--color-bink);
+}
+.Mostpopularlivebox .Mostpopularliveman span i{
+    padding: 5px;
+    border-radius: 50%;
+    background-color: var(--color-bink);
+    font-size: 12px;
+    color: white;
+}
+.Mostpopularlivebox .Mostpopularliveman h3{
+    
+    font-size: 25px;
+    font-weight: 700;
+
+}
+@media (max-width:766px) {
+.Mostpopularliveboxs{
+    grid-template-columns: repeat(auto-fill,minmax(200px , 1fr));
+
+}
+.Mostpopularlivebox .Mostpopularliveman h3{
+    
+    font-size: 20px;
+
+
+}
+}
+@media (max-width:300px) {
+    .Mostpopularliveboxs{
+        grid-template-columns: repeat(auto-fill,minmax(150px , 1fr));
+    
+    }
+    .Mostpopularlivebox .Mostpopularliveman h3{
+        
+        margin-top: 5px;
+    
+    
+    }
+    }
+    

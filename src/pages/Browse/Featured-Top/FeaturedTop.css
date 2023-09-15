@@ -1,0 +1,114 @@
+.Featured .Featured-boxs{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(200px , 1fr));
+
+}
+.Featured .Featured-boxs .Featured-box-main img{
+    width: 100%;
+    border-radius: 10px;
+}
+.Featured .Featured-boxs .Featured-box{
+    padding: 10px;
+}
+.Featured .Featured-boxs .Featured-box-main{
+    position: relative;
+    overflow: hidden;
+}
+
+.Featured .Featured-boxs .Featured-box .Featured-box-title{
+    font-size: 18px;
+    text-align: center;
+    color: var(--color-bink);
+    position: absolute;
+    top:-100%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    background-color: rgba(0, 0, 0, 0.882);
+    padding: 10px;
+    border-radius: 20px;
+    transition: .9s;
+}
+.Featured .Featured-boxs .Featured-box:hover .Featured-box-title{
+    top: 50%;
+}
+.Featured .Featured-boxs .Featured-box .Featured-box-title2{
+    padding-top: 10px;
+}
+.Featured .Featured-boxs .Featured-box .Featured-box-title2 h4{
+    font-size: 18px;
+    font-weight: bold;
+}
+.Featured .Featured-boxs .Featured-box .Featured-box-title2 h4 span{
+    font-size: 16px;
+    color: #777;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+.Featured .Featured-boxs .Featured-box .Featured-box-title2 .star11{
+    color: yellow;
+}
+.Featured .Featured-boxs .Featured-box .Featured-box-title2 .dawn11{
+    color: var(--color-bink);
+}
+
+
+.topboxs .topbox .ulgg{
+    margin: 0;
+    padding: 0;
+}
+.topboxs .topbox img{
+    border-radius: 10px;
+}
+.topboxs .topbox{
+    padding: 25px;
+    border-bottom:1px solid var(--color-bink) ;
+}
+.topboxs .topbox h4{
+    font-size: 18px;
+}
+.topboxs .topbox h4 span{
+    font-size: 16px;
+    color: #777;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+.topboxs .topbox ul li{
+    padding-right: 10px;
+}
+.topboxs .topbox ul li .star11{
+    color: yellow;
+}.topboxs .topbox ul li .dawn11{
+    color: var(--color-bink);
+}
+.topboxs .topbox .aaaaw{
+    padding: 7px 15px;
+    background-color: #27292a;
+    border-radius:50% ;
+    font-size: 20px;
+    color: var(--color-bink);
+}
+.topboxs a{
+    padding-top: 19px;
+    color: var(--color-bink);
+    display: flex;
+    text-align: center;
+    margin: auto;
+    justify-content: center;
+}
+@media (max-width:450px) {
+    .topboxs .topbox{
+        margin: auto;
+    }
+    .topboxs .topbox div{
+        margin: auto;
+        padding: 5px;
+    }
+    .topboxs .topbox h4{
+        text-align: center;
+    }
+    .Featured .Featured-boxs{
+        display: grid;
+        grid-template-columns: repeat(auto-fill,minmax(150px , 1fr));
+    
+    }
+}

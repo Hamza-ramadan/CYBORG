@@ -1,0 +1,5 @@
+export {default as Home} from './Home/Home'
+export {default as Profile} from './Profile/profile'
+export {default as Browse} from './Browse/Browse'
+export {default as Detailis} from './Detailis/Detailis'
+export {default as Streams} from './Streams/Streams'

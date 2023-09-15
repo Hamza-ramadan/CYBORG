@@ -1,0 +1,19 @@
+:root{
+    --color-dark: #27292a;
+    --color-darkes: #1f2122;
+    --color-light: #fff;
+    --color-bink:#ec6090;
+}
+.App{
+    background-color: var(--color-dark) !important;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.aAaASsa{
+    background-color: var(--color-darkes);
+
+}

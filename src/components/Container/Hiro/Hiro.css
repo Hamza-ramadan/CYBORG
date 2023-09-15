@@ -1,0 +1,56 @@
+.hiro-main{
+    background: url(../../../images/banner-bg.jpg) no-repeat top right/cover;
+    background-color: var(--color-dark);
+    color: var(--color-light);
+    border-radius: 25px;
+    padding: 50px;
+}
+.hiro-text h4{
+    font-size: 50px;
+    text-transform: uppercase;
+    margin-bottom: 20px; 
+    font-weight: bold;
+}
+.hiro-text h6{
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-bottom: 20px; 
+    font-weight: 400;
+}
+.hiro-title{
+    max-width: 550px;
+}
+.hiro-text h4 span{
+    font-style: normal;
+    color: var(--color-bink);
+}
+.bb1{
+    font-size: 16px;
+    color: #ec6090;
+    background-color: transparent;
+    border: 1px solid #ec6090;
+    padding: 12px 30px;
+    display: inline-block;
+    border-radius: 25px;
+    font-weight: 400;
+    text-transform: capitalize;
+    letter-spacing: 0.5px;
+    transition: all .3s;
+    position: relative;
+    overflow: hidden;
+    text-decoration: none;
+}
+.bb1:hover {
+    border-color: #fff;
+    background-color: #fff;
+    color: #e75e8d;
+}
+@media (max-width:500px) {
+    .hiro-text h4{
+        font-size: 25px;
+    }
+    .bb1{
+    padding: 6px 15px;
+        font-size: 14px;
+    }
+}

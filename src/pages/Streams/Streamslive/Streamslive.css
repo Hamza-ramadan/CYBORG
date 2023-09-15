@@ -1,0 +1,42 @@
+.jjj .topstraem ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 3PX;
+    border-bottom: 1px dashed rgba(238, 130, 238, 0.214);
+}
+.jjj .topstraem ul li{
+    color: var(--color-bink);
+    font-size: 18px;
+    font-weight: 600;
+    padding: 3PX;
+}
+.jjj .topstraem ul li span{
+    color: white;
+    margin-left: -20px;
+    font-size: 20px;
+}
+.jjj .topstraem ul li img{
+    margin-left: 20px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+.jjj .topstraem ul li i{
+    padding: 3px;
+    border-radius: 50%;
+    background-color: var(--color-bink);
+    color: white;
+    margin-right: 5px;
+    font-size: 16px;
+    /* display: inline-b/0lock; */
+}
+.jjj .topstraem ul li a{
+    padding: 7px 15px;
+    background-color: var(--color-bink);
+    color: white;
+    border-radius: 20px;
+    font-weight: 400;
+}
+

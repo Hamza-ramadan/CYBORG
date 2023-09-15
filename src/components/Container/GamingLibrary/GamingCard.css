@@ -1,0 +1,20 @@
+.gaming-librey-card{
+    flex: 1 1 100%;
+}
+.gaming-librey-card ul{
+    display: flex;
+    /* flex: 1 1 100%; */
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-bottom: 1PX solid var(--color-bink);
+    padding: 20PX 0;
+}
+.gaming-librey-card ul h4{
+    font-size: 18px;
+}
+.gaming-librey-card ul span{
+    color: #a6a4a4;
+}
+.gaming-librey-card ul .bb1 a{
+    color: var(--color-bink);
+}

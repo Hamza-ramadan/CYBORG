@@ -1,0 +1,64 @@
+.moststreamsboxs .moststreamsbox .imgaaa{
+    border-radius: 20px;
+    width: 100%;
+}
+.moststreamsboxs .moststreamsbox img{
+    border-radius: 20px;
+}
+.moststreamsbox .moststreamtitles{
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+.moststreamsbox .moststreamtitles div{
+    margin-left: 10px
+}
+
+.moststreamsbox .moststreamtitles div p{
+    margin-bottom: 0;
+    padding: 3px;
+    font-weight: 600;
+    color: var(--color-bink);
+
+}
+.moststreamsbox .moststreamtitles div p i{
+    padding: 2px ;
+    border-radius: 50%;
+    background-color: white;
+    margin-right: 6px;
+    font-size: 14px;
+}
+  .moststreamsbox .moststreamtitles div h4{
+    font-size: 22px;
+    font-weight: bold;
+    width: 100%;
+  }
+
+.moststreamsboxs{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(240px , 1fr));
+    gap: 30px;
+    position: relative;
+    padding-bottom: 40px;
+}
+
+@media (max-width:335px) {
+    .moststreamsboxs{
+        grid-template-columns: repeat(auto-fit,minmax(170px , 1fr));
+        gap: 15px;
+    }
+    
+}
+.moststreamsboxs .sasawsw{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -38px;
+    padding: 12px 22px;
+    color: white;
+    border: 1px solid var(--color-bink);
+    /* margin-top: 20px; */
+    border-radius: 30px;
+    background-color: var(--color-bink);
+}
+

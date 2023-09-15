@@ -1,0 +1,43 @@
+.navbar{
+    padding-top: 20px;
+    padding-bottom:15px;
+}
+nav .ggggg{
+    background-color: var(--color-dark);
+    outline: none;
+    border: none;
+}
+nav .ggggg::placeholder{
+    color: var(--color-bink);
+}
+
+@media (max-width:500px) {
+    nav .imge21{
+        width: 120px;
+    }
+    
+    
+}
+.navbar .pepep{
+    color: var(--color-bink);
+    border-color: var(--color-bink);
+}
+.navbar  ul li .heheh{
+    transition: 1s;
+    border-radius: 20px;
+    width: fit-content;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 5px;
+}
+.navbar  ul li:hover .heheh
+,.navbar .pepep:hover{
+    color: white; 
+    background-color: var(--color-bink);
+}
+
+.navbar  ul li .active{
+    color: white; 
+    background-color: var(--color-bink);
+}
+
